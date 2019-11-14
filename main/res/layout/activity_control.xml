@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="e.anidiot.fab_challenge.ControlActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/f"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="front"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/l"
+            android:text="left"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/r"
+            android:text="right"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_gravity="center"
+        android:text="back"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_margin="100dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/u"
+            android:text="up"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/d"
+            android:text="down"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/s"
+        android:layout_gravity="center"
+        android:text="stop"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
