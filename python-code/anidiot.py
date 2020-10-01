@@ -5,9 +5,7 @@ HOST = "ip-address"
 PORT = 9005
 
 s = socket(AF_INET, SOCK_STREAM)
-print("1")
 s.bind((HOST, PORT))
-print("2")
 s.listen(1)
 conn, addr = s.accept()
 print(addr)
