@@ -1,6 +1,6 @@
 from socket import *
-
-
+# code to move tge robot
+# host ip adress and port
 HOST = "ip-address"
 PORT = 9005
 
